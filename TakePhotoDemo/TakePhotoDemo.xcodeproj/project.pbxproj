@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B18EE5E1CA29C2F007EBABD /* NotAuthorizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18EE5C1CA29C2F007EBABD /* NotAuthorizedViewController.swift */; };
+		9B18EE5F1CA29C2F007EBABD /* NotAuthorizedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B18EE5D1CA29C2F007EBABD /* NotAuthorizedViewController.xib */; };
+		9B18EE611CA38018007EBABD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18EE601CA38018007EBABD /* RootViewController.swift */; };
+		9BA7D0F01CA2494C00A9E343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7D0EF1CA2494C00A9E343 /* AppDelegate.swift */; };
+		9BA7D0F21CA2494C00A9E343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7D0F11CA2494C00A9E343 /* ViewController.swift */; };
+		9BA7D0F51CA2494C00A9E343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7D0F31CA2494C00A9E343 /* Main.storyboard */; };
+		9BA7D0F71CA2494C00A9E343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7D0F61CA2494C00A9E343 /* Assets.xcassets */; };
+		9BA7D0FA1CA2494C00A9E343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7D0F81CA2494C00A9E343 /* LaunchScreen.storyboard */; };
+		9BA7D1021CA24D6900A9E343 /* PYPSessionMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7D1011CA24D6900A9E343 /* PYPSessionMananger.swift */; };
+		9BA7D1041CA25F2D00A9E343 /* PYPPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7D1031CA25F2D00A9E343 /* PYPPreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B18EE5C1CA29C2F007EBABD /* NotAuthorizedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotAuthorizedViewController.swift; sourceTree = "<group>"; };
+		9B18EE5D1CA29C2F007EBABD /* NotAuthorizedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotAuthorizedViewController.xib; sourceTree = "<group>"; };
+		9B18EE601CA38018007EBABD /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		9BA7D0EC1CA2494C00A9E343 /* TakePhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakePhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA7D0EF1CA2494C00A9E343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BA7D0F11CA2494C00A9E343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BA7D0F41CA2494C00A9E343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BA7D0F61CA2494C00A9E343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BA7D0F91CA2494C00A9E343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BA7D0FB1CA2494C00A9E343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA7D1011CA24D6900A9E343 /* PYPSessionMananger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYPSessionMananger.swift; sourceTree = "<group>"; };
+		9BA7D1031CA25F2D00A9E343 /* PYPPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYPPreviewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA7D0E91CA2494C00A9E343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA7D0E31CA2494C00A9E343 = {
+			isa = PBXGroup;
+			children = (
+				9BA7D0EE1CA2494C00A9E343 /* TakePhotoDemo */,
+				9BA7D0ED1CA2494C00A9E343 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA7D0ED1CA2494C00A9E343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7D0EC1CA2494C00A9E343 /* TakePhotoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA7D0EE1CA2494C00A9E343 /* TakePhotoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7D0EF1CA2494C00A9E343 /* AppDelegate.swift */,
+				9BA7D0F11CA2494C00A9E343 /* ViewController.swift */,
+				9BA7D1011CA24D6900A9E343 /* PYPSessionMananger.swift */,
+				9B18EE601CA38018007EBABD /* RootViewController.swift */,
+				9B18EE5C1CA29C2F007EBABD /* NotAuthorizedViewController.swift */,
+				9B18EE5D1CA29C2F007EBABD /* NotAuthorizedViewController.xib */,
+				9BA7D1031CA25F2D00A9E343 /* PYPPreviewView.swift */,
+				9BA7D0F31CA2494C00A9E343 /* Main.storyboard */,
+				9BA7D0F61CA2494C00A9E343 /* Assets.xcassets */,
+				9BA7D0F81CA2494C00A9E343 /* LaunchScreen.storyboard */,
+				9BA7D0FB1CA2494C00A9E343 /* Info.plist */,
+			);
+			path = TakePhotoDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA7D0EB1CA2494C00A9E343 /* TakePhotoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA7D0FE1CA2494C00A9E343 /* Build configuration list for PBXNativeTarget "TakePhotoDemo" */;
+			buildPhases = (
+				9BA7D0E81CA2494C00A9E343 /* Sources */,
+				9BA7D0E91CA2494C00A9E343 /* Frameworks */,
+				9BA7D0EA1CA2494C00A9E343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakePhotoDemo;
+			productName = TakePhotoDemo;
+			productReference = 9BA7D0EC1CA2494C00A9E343 /* TakePhotoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA7D0E41CA2494C00A9E343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = paiyipai;
+				TargetAttributes = {
+					9BA7D0EB1CA2494C00A9E343 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4J73E9V92G;
+					};
+				};
+			};
+			buildConfigurationList = 9BA7D0E71CA2494C00A9E343 /* Build configuration list for PBXProject "TakePhotoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA7D0E31CA2494C00A9E343;
+			productRefGroup = 9BA7D0ED1CA2494C00A9E343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA7D0EB1CA2494C00A9E343 /* TakePhotoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA7D0EA1CA2494C00A9E343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA7D0FA1CA2494C00A9E343 /* LaunchScreen.storyboard in Resources */,
+				9BA7D0F71CA2494C00A9E343 /* Assets.xcassets in Resources */,
+				9BA7D0F51CA2494C00A9E343 /* Main.storyboard in Resources */,
+				9B18EE5F1CA29C2F007EBABD /* NotAuthorizedViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA7D0E81CA2494C00A9E343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B18EE5E1CA29C2F007EBABD /* NotAuthorizedViewController.swift in Sources */,
+				9BA7D1021CA24D6900A9E343 /* PYPSessionMananger.swift in Sources */,
+				9B18EE611CA38018007EBABD /* RootViewController.swift in Sources */,
+				9BA7D1041CA25F2D00A9E343 /* PYPPreviewView.swift in Sources */,
+				9BA7D0F21CA2494C00A9E343 /* ViewController.swift in Sources */,
+				9BA7D0F01CA2494C00A9E343 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BA7D0F31CA2494C00A9E343 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA7D0F41CA2494C00A9E343 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BA7D0F81CA2494C00A9E343 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA7D0F91CA2494C00A9E343 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA7D0FC1CA2494C00A9E343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BA7D0FD1CA2494C00A9E343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA7D0FF1CA2494C00A9E343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../AutoFlexibleTableView/**";
+				INFOPLIST_FILE = TakePhotoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paiyipai.TakePhotoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BA7D1001CA2494C00A9E343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../AutoFlexibleTableView/**";
+				INFOPLIST_FILE = TakePhotoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paiyipai.TakePhotoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA7D0E71CA2494C00A9E343 /* Build configuration list for PBXProject "TakePhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA7D0FC1CA2494C00A9E343 /* Debug */,
+				9BA7D0FD1CA2494C00A9E343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA7D0FE1CA2494C00A9E343 /* Build configuration list for PBXNativeTarget "TakePhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA7D0FF1CA2494C00A9E343 /* Debug */,
+				9BA7D1001CA2494C00A9E343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA7D0E41CA2494C00A9E343 /* Project object */;
+}
